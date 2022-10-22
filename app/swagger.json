@@ -1,0 +1,37 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "",
+        "description": "",
+        "version": "1.0"
+    },
+    "produces": [
+        "application/json"
+    ],
+    "host": "localhost:5000",
+    "basePath": "/",
+    "paths": {
+        "/home": {
+            "get": {
+                "x-swagger-router-controller": "middleware-name1",
+                "operationId": "1",
+                "tags": [
+                    "/"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {}
+            },
+            "post": {
+                "x-swagger-router-controller": "middleware-name1",
+                "operationId": "2",
+                "tags": [
+                    "/"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {}
+            }
+        }
+    }
+}
